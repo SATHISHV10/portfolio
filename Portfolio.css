@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f2f2f2;
+    color: #2f2e2e;
+}
+/* Header */
+header {
+    background: hsl(22, 22%, 17%);
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;   /* Makes it circular */
+    object-fit: cover;
+    margin-bottom: 15px;
+    border: 3px solid #73ff9a; /* optional */
+}
+/* Navigation */
+nav {
+    background: #5b4b37;
+    padding: 12px;
+    text-align: center;
+}
+nav a {
+    color: white;
+    margin: 12px;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a:hover {
+    color: #18b2ef;
+}
+/* Sections */
+section {
+    background: white;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 8px;
+}
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+table, th, td {
+    border: 1px solid #ccc;
+}
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+th {
+    background: #e5e7eb;
+}
+/* Project cards */
+.project {
+    padding: 15px;
+    margin-top: 15px;
+}
+/* Footer */
+footer {
+    background: hsl(22, 22%, 17%);
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
